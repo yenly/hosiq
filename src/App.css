@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin: 20px;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 8px;
+}
+
+th {
+  border-bottom: 1px solid #333;
+  background-color: lightsteelblue;
+}
+
+.units_table tr:nth-child(even) {
+  background-color: #E8E8E8;
+}
+
+.unit_name {
+  text-align: left;
+}
